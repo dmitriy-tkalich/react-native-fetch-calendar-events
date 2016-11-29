@@ -1,0 +1,30 @@
+{
+  "name": "react-native-fetch-calendar-events",
+  "version": "0.1.0",
+  "author": "Dmitry Tkalich",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creativ/react-native-fetch-calendar-events"
+  },
+  "bugs": {
+    "url": "https://github.com/creativ/react-native-fetch-calendar-events/issues"
+  },
+  "homepage": "https://github.com/creativ/react-native-fetch-calendar-events",
+  "description": "React Native module for fetching Calendar Events",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "eventkit",
+    "reminders",
+    "calendar-events"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.8.0"
+  }
+}
