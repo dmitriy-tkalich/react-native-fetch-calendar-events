@@ -14,10 +14,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class Utility {
-
-    public static WritableArray events = Arguments.createArray();
-
     public static WritableArray readCalendarEvent(Context context) {
+        WritableArray events = Arguments.createArray();
         Cursor cursor = context.getContentResolver()
                 .query(
                         Uri.parse("content://com.android.calendar/events"),
@@ -50,6 +48,4 @@ public class Utility {
         calendar.setTimeInMillis(milliSeconds);
         return formatter.format(calendar.getTime());
     }
-
-
 }
