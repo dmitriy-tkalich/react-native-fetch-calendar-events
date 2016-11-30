@@ -29,7 +29,7 @@ public class Utility {
 
         for (int i = 0; i < CNames.length; i++) {
             WritableMap event = Arguments.createMap();
-            event.putString("name", cursor.getString(1));
+            event.putString("title", cursor.getString(1));
             event.putString("description", cursor.getString(2));
             event.putString("startDate", cursor.getString(3));
             event.putString("endDate", cursor.getString(4));
